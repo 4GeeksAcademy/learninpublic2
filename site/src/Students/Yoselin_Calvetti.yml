@@ -1,0 +1,99 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "red"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Yoselin
+    last_name: Calvetti
+    
+    # Define yourself in 4-5 words
+    motto: Apasionada por la tecnología
+    
+    # focus
+    focus: Continuamente en aprendizaje
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      Como estudiante de desarrollo full stack, he adquirido habilidades en la 
+      creación de soluciones tecnológicas innovadoras y eficiente.
+      He demostrado un enfoque orientado y detallado, cuento con capacidad
+      para comprender las necesidades y traducirlas en soluciones técnicas.
+
+      Cuento con conocimiento en HTML5, CSS, JavaScript, Botstrap, Git.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://scontent.fmvd1-1.fna.fbcdn.net/v/t39.30808-6/332095356_589475256375948_5204549551815715089_n.jpg?_nc_cat=102&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGyAeNJVzEaG8MHQavZhxGJZ6ZDngpz8UxnpkOeCnPxTMjtItSkGyqIWHhIcFRsGp5-dNhkiZTErGzE59GsfDwI&_nc_ohc=ipj2DsiGmRsAX85IRwn&_nc_ht=scontent.fmvd1-1.fna&oh=00_AfD86DwGYFs6DUP3wwGlmECKKT9zxhxBoXqanydOjPxoRA&oe=64C7DDF4
+
+    # Contact Information
+    email: yosecalvetti@gmail.com #optional
+    phone: (+598)98052806 #optional
+    website: - #optional
+    linkedin: https://www.linkedin.com/in/yoselin-calvetti-alaniz-2b267a162/ #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: https://github.com/YoselinCalvetti
+    
+    twitter: - #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - Idioma: Español
+        Nivel: Nativo
+
+      - Idioma: Inglés
+        Nivel: Intermedio
+
+    # Interests or hobies
+    interests:
+      - item: Tocar la guitarra
+
+      - item: Dibujar
+
+      - item: Programar
+
+# Your previous education
+education:
+    - degree: Bootcamp Desarrollo Full Stack
+      university: 4geeks Academy - UTEC
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 07-2023 09-2023
+      details: |
+        Conocimientos en Front-End y Back-end convirtiendo en un Full Stack Developer
+
+# Your previous job experiences or voluntier
+experiences:
+    -
+# Your project portfolio
+projects:
+    intro: >
+    Postcard
+
+    assignments:
+      - title: Postcard
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/YoselinCalvetti/YoselinCalvetti-exercise-postcard"
+        tagline: "Creación de una postcard"
+
+
+skills:
+    toolset:
+      - name: Javascript & jQuery
+        level: 60%
+
+      - name: HTML5 & CSS
+        level: 98%
+
+      - name: Sketch & Photoshop
+        level: 80%
